@@ -1,0 +1,151 @@
+/* body{
+    background-color: rgb(217, 232, 233);
+}
+.wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(109, 220, 240);
+    margin: 0 auto;
+    box-shadow: 7px 5px 20px rgb(124, 119, 119);
+}
+.msg{
+    text-align: center;
+}
+@media  screen and (max-width:768px){
+
+    .msg{
+        text-align: right;
+    }
+    #input{
+        margin: 0 auto;
+    }
+}
+
+ */
+
+ .wrapper{
+     margin: auto;
+     background-color: rgb(100, 204, 178);
+     max-width: 600px;
+     margin-top: 20px;
+     display: flex;
+     border-radius: 5px;
+     box-shadow: 2px 2px 7px grey;
+     flex-direction: column;
+     padding: 10px;
+     overflow: scroll;
+     /* align-items: stretch; */
+     
+ }
+
+.main{
+    min-width: 0px;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+#input{
+    width: 550px;
+    outline: none;
+    border: 1.5px solid rgb(72, 108, 226);
+    border-top-left-radius: 5px;
+    padding-left: 5px;
+    
+    
+}
+#add{
+    width: 40px;
+    height: 20px;
+    background-color: rgb(72, 108, 226);
+    /* display: inline-block; */
+    outline: none;
+    border: 0;
+    border-end-end-radius: 5px;
+    color: white;
+
+
+}
+.wrapper_content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    box-sizing: border-box;
+
+    
+}
+.edit{
+    margin-top: 6px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    
+
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.btn_delete{
+    margin-right: 10px;
+    background-color: rgb(160, 70, 70);
+
+}
+
+
+.edit_btn{
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.btn_edit{
+    background-color: rgb(68, 170, 238);
+} 
+.saving_btn{
+    border: 0;
+    border-top-right-radius: 5px;
+    width: 50px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+}
+#edittodo{
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    resize: none;
+    max-width: 600px;
+
+
+
+}
+#cancle{
+    background-color: red;
+}
+#save{
+    background-color: green;
+}
+
+#save_btn{
+    justify-content: space-between;
+}  
+
+ .msg {
+     margin: auto;
+ }
+ .edit_btn{
+     justify-content: flex-end;
+ }
+ 
+ 
